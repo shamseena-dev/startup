@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins';---
+}
+.home-content{
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('images/banner2.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	height:80vh;
+	z-index: -1;
+}
+.nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	margin:18px 0 0 70px;
+	cursor:pointer;
+
+}
+.btn{
+	padding:5px 20px;
+	background: #ff4d73;
+	color: white;
+	background-color: orange;
+	font-size: 20px;
+	right: 10%;
+	top: auto;
+	border: 0;
+	margin-top: 20px;
+
+}
+.btn:hover{
+	cursor:pointer;
+	border: 1px solid #ff4d73;
+	background-color: transparent;
+}
+.btn-login{
+	height: 40px;
+	margin-right:50px;
+}
+.btn-login:hover{
+	color:#ff4d73;
+}
+.banner-text{
+	width: 80%;
+	color:white;
+	text-align: center;
+	margin: auto;
+}
+
+.banner-text h1{
+	font-size: 50px;
+	padding-top: 12%;
+	
+}
+.banner-text p{
+	font-size: 30px;
+	margin-top:40px;
+}
+.btn-more{
+	padding:5px 20px;
+	background: #ff4d73;
+	color: white;
+	background-color: orange;
+	font-size: 20px;
+	right: 10%;
+	top: auto;
+	border: 0;
+	margin-top: 20px;
+}
