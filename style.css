@@ -17,7 +17,7 @@ body{
 .nav-bar{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 .logo{
@@ -30,6 +30,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	margin-right: 10px;
 }
 .btn{
 	padding: 10px 30px;
@@ -48,11 +49,12 @@ body{
 .btn-login, .btn-signup{
 	height: 40px;
 	margin-right:10px;
-	color: #d40504;;
+	color: #dd571c;
 	background-color: white;
+	font-size: 16px;
 }
 .btn-signup{
-	border: 1px solid #d40504;;
+	border: 2px solid #dd571c;
 }
 .btn-login:hover ,.btn-signup:hover{
 	background-color: #a6a6a6;
@@ -210,7 +212,7 @@ body{
 
 /*---------Get In Touch --------*/
 #getintouch{
-	background-color: white;
+	background-color: rgba(0,0,0,0.1);
 	width:100%;
 	height:auto;
 	margin:auto;
@@ -293,6 +295,7 @@ footer{
 }
 .social-icon:hover{
 	color: #dd571c;
+	cursor: pointer;
 }
 .copyright{
 	color: rgba(0,0,0,0.6);
