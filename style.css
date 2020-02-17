@@ -272,7 +272,7 @@ div.form-content{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  width:50%;
+  width:60%;
 }
 
 /*-------------footer------------*/
@@ -317,7 +317,7 @@ footer{
 }
 .company-details span{
 	line-height: 20px;
-	color: rgba(0,0,0,0.8);
+	color: rgba(0,0,0,0.7);
 }
 .company-details{
 	padding: 10px;
@@ -349,5 +349,11 @@ footer{
 	height:35px;
 	margin:auto;
 	font-size: 14px;
+}
+#services h1, #features h1, #getintouch h1{
+	font-size: 25px;
+}
+div.form-content{
+	width:80%;
 }
 }
