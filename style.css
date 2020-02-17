@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'poppins';---
+	font-family: 'Open Sans', sans-serif;
 }
 body{
 	overflow-x: hidden;
@@ -83,7 +83,7 @@ body{
 #services{
 	background-color: #f4f3ff;
 	width:100vw;
-	height:100vh;
+	height:auto;
 	margin:auto;
 }
 
@@ -121,24 +121,27 @@ body{
 	align-content: center;
 	justify-content: center;
 	max-width:300px;
-	margin: 10px auto 20px;
+	background-color: #d3d3d3;
+	border:0;
+	padding:20px;
+	margin:40px 10px;
+}
+.service h3{
+	color: #dd571c;
 }
 .icon{
-	color: #b70709;
+	color: #dd571c;
 	font-size: 30px;
-	border: 1px solid #b70709;
+	border: 8px solid #f4f3ff;
 	padding: 14px 10px 6px 10px;
 	border-radius: 50%;
 	width:50px;
 	height:45px;
-	margin: 10px auto;
+	margin: -75px auto 0;
+	background-color: white;
+
 }
 .service h3, .service p{
 	margin:10px;
 }
 
-.service{
-	background-color: #d3d3d3;
-	border:0;
-
-}
