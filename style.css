@@ -124,9 +124,9 @@ body{
 	margin: 10px auto 20px;
 }
 .icon{
-	color: #FFA500;
+	color: #b70709;
 	font-size: 30px;
-	border: 1px solid #FFA500;
+	border: 1px solid #b70709;
 	padding: 14px 10px 6px 10px;
 	border-radius: 50%;
 	width:50px;
@@ -137,8 +137,8 @@ body{
 	margin:10px;
 }
 
-.service:hover {
-	background-color: orange;
-	border-radius: 4px;
+.service{
+	background-color: #d3d3d3;
+	border:0;
 
 }
