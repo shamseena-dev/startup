@@ -327,3 +327,27 @@ footer{
 	background-color:  #f4f3ff;
 	width:auto;
 }
+
+
+@media screen and (max-width: 580px) {
+  .banner-text h1{
+	font-size: 45px;
+		
+}
+.banner-text p{
+	font-size: 25px;
+	margin-top:20px;
+}
+.btn-getstarted{
+	margin-top: 20px;
+}
+.logo{
+	height:80px;
+
+}
+.btn-login, .btn-signup{
+	height:35px;
+	margin:auto;
+	font-size: 14px;
+}
+}
