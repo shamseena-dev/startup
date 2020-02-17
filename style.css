@@ -207,3 +207,96 @@ body{
 	padding:15px;
 	margin-bottom : 40px;
 }
+
+/*---------Get In Touch --------*/
+#getintouch{
+	background-color: #f4f3ff;
+	width:100%;
+	height:auto;
+	margin:auto;
+	padding-bottom: 50px;
+	overflow-x: hidden;
+}
+
+#getintouch h1{
+	text-align: center;
+	padding-top: 80px;
+	color: #1A1110;
+	font-size: 30px;
+}
+
+#getintouch h1::after{
+	content:'';
+	display:block;
+	height: 2px;
+	background-color: #d40504; 
+	width:100px;
+	text-align: center;
+	margin: 10px auto 40px auto;
+}
+
+input[type=text],input[type=email], textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+ }
+
+input[type=submit] {
+  width: 40%;
+  background-color: #dd571c;
+  font-size: 16px;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px auto 10px 30%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: transparent;
+  border: 1px solid #dd571c;
+  color: #dd571c;
+}
+
+div.form-content{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:50%;
+}
+
+/*-------------footer------------*/
+
+.social-icons-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 200px;
+	margin-top: 40px;
+
+}
+.social-icon{
+	color: rgba(0,0,0,0.8);
+	font-size: 30px;
+}
+.social-icon:hover{
+	color: #dd571c;
+}
+
+.social-icons-section::after {
+	content:'';
+	display:block;
+	height: 2px;
+	background-color: #d40504; 
+	width:100px;
+	text-align: center;
+	margin: 10px auto 40px auto;
+}
