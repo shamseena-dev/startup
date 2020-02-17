@@ -210,7 +210,7 @@ body{
 
 /*---------Get In Touch --------*/
 #getintouch{
-	background-color: #f4f3ff;
+	background-color: white;
 	width:100%;
 	height:auto;
 	margin:auto;
@@ -274,13 +274,17 @@ div.form-content{
 }
 
 /*-------------footer------------*/
-
+footer{
+	background-color:  #f4f3ff;
+	padding:40px;
+}
 .social-icons-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	width: 200px;
 	margin-top: 40px;
+	
 
 }
 .social-icon{
@@ -290,13 +294,33 @@ div.form-content{
 .social-icon:hover{
 	color: #dd571c;
 }
-
+.copyright{
+	color: rgba(0,0,0,0.6);
+}
 .social-icons-section::after {
 	content:'';
 	display:block;
 	height: 2px;
 	background-color: #d40504; 
-	width:100px;
+	width:400px;
 	text-align: center;
 	margin: 10px auto 40px auto;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.company-details span{
+	line-height: 20px;
+	color: rgba(0,0,0,0.8);
+}
+.company-details{
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color:  #f4f3ff;
+	width:auto;
 }
